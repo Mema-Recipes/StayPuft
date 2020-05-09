@@ -5,7 +5,8 @@
 :root {
     --sans-serif: 'Open Sans', sans-serif;
     --text-color: #3c484e;
-    --link-color: #33393d;
+    --link-color: #0084cd;
+    --link-hover-color: #ffcd24;
     --sidebar-width: 320px;
     --sidebar-color: #006fb9;
     --sidebar-link-color: #0084cd;
@@ -70,15 +71,11 @@ body {
 }
 
 .site-footer-content a:hover {
-    color: var(--link-color);
+    color: var(--link-hover-color);
     text-decoration: underline;
 }
 
 .post-content- em,
 .post-content strong {
     color: var(--text-color);
-}
-
-.nav-current {
-    background: #FFCD24 ;
 }
