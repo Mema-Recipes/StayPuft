@@ -44,11 +44,12 @@
 }
 
 .main-nav li a {
-    color: var(--search-placeholder-color);
+    color: white;
 }
 
 .main-nav li a:hover {
-    color: var(--search-placeholder-color);
+    color: white;
+    text-decoration: underline;
 }
 
 body {
@@ -73,6 +74,14 @@ body {
 .site-footer-content a:hover {
     color: var(--link-hover-color);
     text-decoration: underline;
+}
+
+.site-header {
+    margin: 0;
+}
+
+.post-full-header {
+    padding: 2vw 2vw 2vw;
 }
 
 .post-content- em,
