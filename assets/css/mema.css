@@ -5,13 +5,11 @@
 :root {
     --sans-serif: 'Open Sans', sans-serif;
     --text-color: #3c484e;
-    --link-color: #3D5B6E;
-    --link-hover-color: #85C5ED;
+    --link-color: #33393d;
     --sidebar-width: 320px;
-    --sidebar-color: #5A86A1;
-    --sidebar-link-color: #3D5B6E;
-    --sidebar-link-hover-color: #85C5ED;
-    --background-color: #CCE0ED;
+    --sidebar-color: #006fb9;
+    --sidebar-link-color: #0084cd;
+    --background-color: #9dc8e4;
 }
 
 /* Overrides
@@ -49,7 +47,7 @@
 }
 
 .main-nav li a:hover {
-    color: var(--sidebar-link-hover-color);
+    color: var(--search-placeholder-color);
 }
 
 body {
@@ -79,4 +77,8 @@ body {
 .post-content- em,
 .post-content strong {
     color: var(--text-color);
+}
+
+.nav-current {
+    background: #FFCD24 ;
 }
