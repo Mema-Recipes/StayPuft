@@ -18,18 +18,15 @@
 
 
 .post-card {
-    flex: 1 1 300px;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    margin: 0 20px 40px;
-    min-height: 300px;
-    background: #fff center center;
-    background-size: cover;
-    border-radius: 5px;
+    box-shadow: none;
+    transform: none;
+    transition: none;
     border: 2px solid transparent;
 }
 
 .post-card:hover {
     border: 2px solid var(--sidebar-color);
+    box-shadow: none;
+    transform: none;
+    transition: none;
 }
