@@ -1,0 +1,17 @@
+@import "staypuft.css";
+
+/* Variables
+/* ---------------------------------------------------------- */
+:root {
+    --sans-serif: 'Open Sans', sans-serif;
+    --text-color: #3c484e;
+    --link-color: #726080;
+    --link-hover-color: #C573FF;
+    --sidebar-width: 320px;
+    --sidebar-color: #623980;
+    --sidebar-link-color: #B799CC;
+    --sidebar-link-hover-color: white;
+    --search-placeholder-color: color(white a(0.5));
+    --radius3: 0;
+    --radius5: 0;
+}
