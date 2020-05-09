@@ -11,9 +11,6 @@
     --sidebar-color: #5A86A1;
     --sidebar-link-color: #3D5B6E;
     --sidebar-link-hover-color: #85C5ED;
-    --search-placeholder-color: color(white a(0.5));
-    --radius3: 0;
-    --radius5: 0;
     --background-color: #CCE0ED;
 }
 
@@ -43,6 +40,30 @@
     color: var(--link-hover-color);
 }
 
+.main-nav li {
+    background: rgba(0,0,0,.2);
+}
+
+.main-nav li a {
+    color: var(--search-placeholder-color);
+}
+
+.main-nav li a:hover {
+    color: var(--sidebar-link-hover-color);
+}
+
 body {
     background: var(--background-color);
+}
+
+.site-footer-content i {
+    color: white;
+}
+
+.site-footer-content a {
+    color: white;
+}
+
+.site-footer-content a:hover {
+    color: var(--sidebar-link-hover-color);
 }
