@@ -5,16 +5,16 @@
 :root {
     --sans-serif: 'Open Sans', sans-serif;
     --text-color: #3c484e;
-    --link-color: #60A3AB;
-    --link-hover-color: #60AB89;
+    --link-color: #3D5B6E;
+    --link-hover-color: #85C5ED;
     --sidebar-width: 320px;
     --sidebar-color: #5A86A1;
-    --sidebar-link-color: #60A3AB;
-    --sidebar-link-hover-color: #60AB89;
+    --sidebar-link-color: #3D5B6E;
+    --sidebar-link-hover-color: #85C5ED;
     --search-placeholder-color: color(white a(0.5));
     --radius3: 0;
     --radius5: 0;
-    --background-color: color(white a(0.5));
+    --background-color: #CCE0ED;
 }
 
 /* Overrides
