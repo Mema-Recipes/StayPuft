@@ -16,7 +16,8 @@
     --radius5: 0;
 }
 
-
+/* Overrides
+/* ---------------------------------------------------------- */
 .post-card {
     box-shadow: none;
     transform: none;
@@ -29,4 +30,18 @@
     box-shadow: none;
     transform: none;
     transition: none;
+}
+
+.author-card-button {
+    border-color: var(--link-color);
+    color: var(--link-color);
+}
+
+.author-card-button:hover {
+    border-color: var(--link-hover-color);
+    color: var(--link-hover-color);
+}
+
+body {
+    background: #E4BFFF;
 }
