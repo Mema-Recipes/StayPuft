@@ -5,15 +5,16 @@
 :root {
     --sans-serif: 'Open Sans', sans-serif;
     --text-color: #3c484e;
-    --link-color: #726080;
-    --link-hover-color: #C573FF;
+    --link-color: #60A3AB;
+    --link-hover-color: #60AB89;
     --sidebar-width: 320px;
-    --sidebar-color: #623980;
-    --sidebar-link-color: #B799CC;
-    --sidebar-link-hover-color: white;
+    --sidebar-color: #5A86A1;
+    --sidebar-link-color: #60A3AB;
+    --sidebar-link-hover-color: #60AB89;
     --search-placeholder-color: color(white a(0.5));
     --radius3: 0;
     --radius5: 0;
+    --background-color: color(white a(0.5));
 }
 
 /* Overrides
@@ -43,5 +44,5 @@
 }
 
 body {
-    background: #E4BFFF;
+    background: var(--background-color);
 }
