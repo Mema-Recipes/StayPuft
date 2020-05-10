@@ -70,8 +70,10 @@ body {
     color: white;
 }
 
+.post-tags a:hover,
+.author-card-name a:hover,
 .site-footer-content a:hover {
-    color: var(--link-hover-color);
+    color: unset;
     text-decoration: underline;
 }
 
@@ -100,12 +102,9 @@ h2.site-description.contrast-box {
     opacity: 0.8;
 }
 
-.social-link.social-link-rss.contrast-box.icon-box a,
-.social-link.social-link-tw.contrast-box.icon-box a,
-.social-link.social-link-wb.contrast-box.icon-box a,
 .author-stats.contrast-box,
 .author-location.contrast-box,
-.author-bio.contrast-box h2 {
+h2.author-bio.contrast-box {
     background-color: unset;
     opacity: .8;
 }
