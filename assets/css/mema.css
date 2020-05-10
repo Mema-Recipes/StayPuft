@@ -88,6 +88,11 @@ body {
     color: var(--text-color);
 }
 
-.site-header-content {
-    background: var(--sidebar-color);
+.site-header {
+    background: #0084cd;
+}
+
+.contrast-box,
+.site-header {
+    background: unset;
 }
