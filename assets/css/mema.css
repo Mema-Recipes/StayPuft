@@ -99,3 +99,13 @@ body {
 h2.site-description.contrast-box {
     opacity: 0.8;
 }
+
+.social-link.social-link-rss.contrast-box.icon-box a,
+.social-link.social-link-tw.contrast-box.icon-box a,
+.social-link.social-link-wb.contrast-box.icon-box a,
+.author-stats.contrast-box,
+.author-location.contrast-box,
+.author-bio.contrast-box h2 {
+    background-color: unset;
+    opacity: .8;
+}
