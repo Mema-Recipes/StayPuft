@@ -92,7 +92,10 @@ body {
     background: #0084cd;
 }
 
-.contrast-box,
-.site-header {
-    background: inherit;
+.contrast-box {
+    background: unset;
+}
+
+h2.site-description.contrast-box {
+    opacity: 0.8;
 }
