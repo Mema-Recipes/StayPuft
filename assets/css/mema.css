@@ -70,7 +70,11 @@ body {
     color: white;
 }
 
-.post-full-meta .post-tags a:hover,
+.post-full-meta .post-tags a:hover {
+    color: unset;
+    text-decoration: underline;
+}
+
 .author-card-name a:hover,
 .site-footer-content a:hover {
     color: unset;
