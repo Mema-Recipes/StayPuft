@@ -94,5 +94,5 @@ body {
 
 .contrast-box,
 .site-header {
-    background: unset;
+    background: inherit;
 }
