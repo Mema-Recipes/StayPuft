@@ -87,3 +87,7 @@ body {
 .post-full-content strong {
     color: var(--text-color);
 }
+
+.site-header-content {
+    background: var(--sidebar-color);
+}
