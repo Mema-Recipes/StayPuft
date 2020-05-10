@@ -81,14 +81,6 @@ body {
     text-decoration: underline;
 }
 
-.site-header {
-    margin: 0;
-}
-
-.post-full-header {
-    padding: 2vw 2vw 2vw;
-}
-
 .post-full-content em,
 .post-full-content strong {
     color: var(--text-color);
